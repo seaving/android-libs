@@ -1,0 +1,428 @@
+sample/sample_le_proxy-le-proxy.o: sample/le-proxy.c \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/stdio.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h \
+ /home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/assert.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/memory.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/errno.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/errno.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/errno.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/errno.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/errno-base.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/socket.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/socket.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/socket.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/sockios.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/sockios.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/uio.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/netinet/in.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/endian.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/endian.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/endian.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/in.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/byteorder.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/byteorder/little_endian.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/byteorder/swab.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/byteorder/generic.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/in6.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/ipv6.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/netinet/in6.h \
+ include/event2/bufferevent_ssl.h include/event2/visibility.h \
+ include/event2/event-config.h include/event2/bufferevent.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/time.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/time.h \
+ include/event2/util.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/netdb.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/time.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/siginfo.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/siginfo.h \
+ include/event2/buffer.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/uio.h \
+ include/event2/listener.h include/event2/event.h util-internal.h \
+ evconfig-private.h log-internal.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/eventfd.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/fcntl.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/fcntl.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/fcntl.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/fcntl.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/unistd.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/select.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/signal.h \
+ /home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h \
+ /home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/limits.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/limits.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/limits.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/internal_types.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/limits.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/syslimits.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/page.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/signal.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/signal.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/sigcontext.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/ucontext.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/user.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/sysconf.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/capability.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/pathconf.h \
+ time-internal.h ipv6-internal.h openssl/inc/openssl/ssl.h \
+ openssl/inc/openssl/e_os2.h openssl/inc/openssl/opensslconf.h \
+ openssl/inc/openssl/opensslv.h openssl/inc/openssl/comp.h \
+ openssl/inc/openssl/bio.h openssl/inc/openssl/crypto.h \
+ openssl/inc/openssl/safestack.h openssl/inc/openssl/stack.h \
+ openssl/inc/openssl/ossl_typ.h openssl/inc/openssl/cryptoerr.h \
+ openssl/inc/openssl/symhacks.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/pthread.h \
+ /home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sched.h \
+ openssl/inc/openssl/bioerr.h openssl/inc/openssl/x509.h \
+ openssl/inc/openssl/buffer.h openssl/inc/openssl/buffererr.h \
+ openssl/inc/openssl/evp.h openssl/inc/openssl/evperr.h \
+ openssl/inc/openssl/objects.h openssl/inc/openssl/obj_mac.h \
+ openssl/inc/openssl/asn1.h openssl/inc/openssl/asn1err.h \
+ openssl/inc/openssl/bn.h openssl/inc/openssl/bnerr.h \
+ openssl/inc/openssl/objectserr.h openssl/inc/openssl/ec.h \
+ openssl/inc/openssl/ecerr.h openssl/inc/openssl/rsa.h \
+ openssl/inc/openssl/rsaerr.h openssl/inc/openssl/dsa.h \
+ openssl/inc/openssl/dh.h openssl/inc/openssl/dherr.h \
+ openssl/inc/openssl/dsaerr.h openssl/inc/openssl/sha.h \
+ openssl/inc/openssl/x509err.h openssl/inc/openssl/x509_vfy.h \
+ openssl/inc/openssl/lhash.h openssl/inc/openssl/pkcs7.h \
+ openssl/inc/openssl/pkcs7err.h openssl/inc/openssl/pem.h \
+ openssl/inc/openssl/pemerr.h openssl/inc/openssl/hmac.h \
+ openssl/inc/openssl/async.h openssl/inc/openssl/asyncerr.h \
+ openssl/inc/openssl/ct.h openssl/inc/openssl/cterr.h \
+ openssl/inc/openssl/sslerr.h openssl/inc/openssl/ssl2.h \
+ openssl/inc/openssl/ssl3.h openssl/inc/openssl/tls1.h \
+ openssl/inc/openssl/dtls1.h openssl/inc/openssl/srtp.h \
+ openssl/inc/openssl/err.h openssl/inc/openssl/rand.h \
+ openssl/inc/openssl/randerr.h openssl-compat.h util-internal.h
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/stdio.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/cdefs.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/android/api-level.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/types.h:
+
+/home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h:
+
+/home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/stdint.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/_types.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/_types.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/posix_types.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/stddef.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/compiler.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/posix_types.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/types.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/types.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/kernel.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/assert.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/stdlib.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/string.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/malloc.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/alloca.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/strings.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/memory.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/errno.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/errno.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/errno.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/errno.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/socket.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/socket.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/socket.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/sockios.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/sockios.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/uio.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/netinet/in.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/endian.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/endian.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/endian.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/in.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/byteorder.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/byteorder/little_endian.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/byteorder/swab.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/byteorder/generic.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/in6.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/ipv6.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/netinet/in6.h:
+
+include/event2/bufferevent_ssl.h:
+
+include/event2/visibility.h:
+
+include/event2/event-config.h:
+
+include/event2/bufferevent.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/time.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/time.h:
+
+include/event2/util.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/netdb.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/time.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/siginfo.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/siginfo.h:
+
+include/event2/buffer.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/uio.h:
+
+include/event2/listener.h:
+
+include/event2/event.h:
+
+util-internal.h:
+
+evconfig-private.h:
+
+log-internal.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/eventfd.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/fcntl.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/fcntl.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/fcntl.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/fcntl.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/unistd.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/select.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/signal.h:
+
+/home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h:
+
+/home/caixiwen/android-ndk-r10d/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/limits.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/limits.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/limits.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/internal_types.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/machine/limits.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/syslimits.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/page.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/signal.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm-generic/signal.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/ucontext.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/user.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sys/sysconf.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/linux/capability.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/pathconf.h:
+
+time-internal.h:
+
+ipv6-internal.h:
+
+openssl/inc/openssl/ssl.h:
+
+openssl/inc/openssl/e_os2.h:
+
+openssl/inc/openssl/opensslconf.h:
+
+openssl/inc/openssl/opensslv.h:
+
+openssl/inc/openssl/comp.h:
+
+openssl/inc/openssl/bio.h:
+
+openssl/inc/openssl/crypto.h:
+
+openssl/inc/openssl/safestack.h:
+
+openssl/inc/openssl/stack.h:
+
+openssl/inc/openssl/ossl_typ.h:
+
+openssl/inc/openssl/cryptoerr.h:
+
+openssl/inc/openssl/symhacks.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/pthread.h:
+
+/home/caixiwen/android-ndk-r10d/platforms/android-18/arch-arm/usr/include/sched.h:
+
+openssl/inc/openssl/bioerr.h:
+
+openssl/inc/openssl/x509.h:
+
+openssl/inc/openssl/buffer.h:
+
+openssl/inc/openssl/buffererr.h:
+
+openssl/inc/openssl/evp.h:
+
+openssl/inc/openssl/evperr.h:
+
+openssl/inc/openssl/objects.h:
+
+openssl/inc/openssl/obj_mac.h:
+
+openssl/inc/openssl/asn1.h:
+
+openssl/inc/openssl/asn1err.h:
+
+openssl/inc/openssl/bn.h:
+
+openssl/inc/openssl/bnerr.h:
+
+openssl/inc/openssl/objectserr.h:
+
+openssl/inc/openssl/ec.h:
+
+openssl/inc/openssl/ecerr.h:
+
+openssl/inc/openssl/rsa.h:
+
+openssl/inc/openssl/rsaerr.h:
+
+openssl/inc/openssl/dsa.h:
+
+openssl/inc/openssl/dh.h:
+
+openssl/inc/openssl/dherr.h:
+
+openssl/inc/openssl/dsaerr.h:
+
+openssl/inc/openssl/sha.h:
+
+openssl/inc/openssl/x509err.h:
+
+openssl/inc/openssl/x509_vfy.h:
+
+openssl/inc/openssl/lhash.h:
+
+openssl/inc/openssl/pkcs7.h:
+
+openssl/inc/openssl/pkcs7err.h:
+
+openssl/inc/openssl/pem.h:
+
+openssl/inc/openssl/pemerr.h:
+
+openssl/inc/openssl/hmac.h:
+
+openssl/inc/openssl/async.h:
+
+openssl/inc/openssl/asyncerr.h:
+
+openssl/inc/openssl/ct.h:
+
+openssl/inc/openssl/cterr.h:
+
+openssl/inc/openssl/sslerr.h:
+
+openssl/inc/openssl/ssl2.h:
+
+openssl/inc/openssl/ssl3.h:
+
+openssl/inc/openssl/tls1.h:
+
+openssl/inc/openssl/dtls1.h:
+
+openssl/inc/openssl/srtp.h:
+
+openssl/inc/openssl/err.h:
+
+openssl/inc/openssl/rand.h:
+
+openssl/inc/openssl/randerr.h:
+
+openssl-compat.h:
+
+util-internal.h:
