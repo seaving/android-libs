@@ -9,7 +9,7 @@
 	运行ndk-build即可编译，输出在json-c目录下的obj目录<br>
 	如果ndk-build找不到试着全路径运行ndk-build<br>
 <br>
-	json-c在嵌入式用的比较多，尤其是openwrt或者lede系统，我是搞嵌入式的，做openwrt/lede开发较多，习惯了json-c<br>
+	json-c在嵌入式用的比较多，尤其是openwrt或者lede系统，本人做openwrt/lede开发较多，习惯了json-c<br>
 <br>
 2. openssl编译方法：<br>
 	把仓库中openssl代码拷贝到虚拟机，进入openssl目录，<br>
